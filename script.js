@@ -23,7 +23,6 @@ var Counter = React.createClass({
 
 	}, 
 
-
 	render: function() {
 
 		return React.createElement('div', {},
@@ -52,7 +51,7 @@ var Counter = React.createClass({
    	},
 
     componentWillUnmount: function() {
-    	console.log('Dane z serwera usunięte');
+    	console.log('Usuwam wyświtlanie rendera np. z  danymi popranymi przez API');
     }
 
 });
